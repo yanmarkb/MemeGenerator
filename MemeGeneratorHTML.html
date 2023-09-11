@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="MemeGeneratorCSS.css">
+</head>
+<body>
+    <section class="meme-generator">
+    <h1>Meme Generator</h1>
+    <h3>Shadow Wizard Meme Gang</h3>
+    <h5>WE LOVE MAKING MEMES!</h5>
+<hr>
+    <form action="" id="memeform">
+       <p class="imageURL">
+        <label for="image">Enter image URL:
+            <input type="text" name="image" placeholder="Place image URL here" required>
+        </label>
+       </p>
+       <p class="topText">
+        <label for="toptext">Enter dank top text:
+            <input type="text" name="toptext" placeholder="Place dankness here" required>
+        </label>
+       </p>
+       <p class="bottomText">
+        <label for="">Enter swaggy bottom text:
+            <input type="text" name="bottomtext" placeholder="Place swagness here" required>
+        </label>
+       </p>
+        <button type="submit">CAST A MEME!</button>
+    </form>
+    </section>
+    <hr>
+    <section id="results">
+        <div id="memeimage-container">
+    <span id="upperText" class="meme-text"></span>
+    <img src="" alt="Generated Meme" id="memeimage">
+    <span id="bottomText" class="meme-text"></span>
+        </div>
+    </section>
+    <script src="MemeGeneratorJS.js"></script>
+</body>
+</html>
